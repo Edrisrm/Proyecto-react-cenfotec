@@ -1,0 +1,9 @@
+.footerColor{
+    /* background: rgb(98,110,235);
+    background: linear-gradient(90deg, rgba(98,110,235,1) 0%, rgba(113,138,248,1) 75%, rgba(113,138,248,1) 100%); */
+    background: rgb(46, 43, 43);
+
+}
+.letraFooter{
+    color: white;
+}
