@@ -10,6 +10,7 @@ function Footer() {
             <img className="rounded-circle" src={logo} width="80px" alt="my_agenda" />
             <h3 className="mt-5 mb-5 letraFooter"><i>My agenda</i></h3>
           </div>
+          
 
           <hr className="clearfix w-100 d-md-none pb-3" />
 
