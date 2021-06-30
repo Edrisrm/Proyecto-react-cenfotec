@@ -3,7 +3,7 @@ import '../Footer/Footer.css';
 import logo from '../../../assets/My_agenda.png'
 function Footer() {
   return (
-    <footer className="page-footer font-small blue pt-4 footerColor">
+    <footer className="page-footer font-small blue pt-4 footerColor ">
       <div className="container-fluid text-center text-md-left">
         <div className="row">
           <div className="col-md-4 mt-md-0 mt-3 text-center">

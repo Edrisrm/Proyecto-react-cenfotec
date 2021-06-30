@@ -26,20 +26,25 @@ function Navbar() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <Link class="nav-link active" aria-current="page" to="/">
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+            <li className="nav-item">
+              <Link className="nav-link active" aria-current="page" to="/">
                 Home
               </Link>
             </li>
+            <li className="nav-item">
+              <Link className="nav-link active" aria-current="page" to="/eventos">
+                Eventos
+              </Link>
+            </li>
           </ul>
-          <form class="d-flex">
+          <form className="d-flex">
             <ul className="navbar-nav mr-auto">
               <li className="nav-item dropdown dropstart mr-5">
                 <Link
                   className="nav-link m-2 btn btn-primary btn-lg text-white"
-                  to="/agendar"
+                  to="/"
                 >
                   Agendar
                 </Link>
@@ -51,6 +56,7 @@ function Navbar() {
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
+                  to="/"
                 >
                   <img
                     src={profile}
@@ -59,14 +65,14 @@ function Navbar() {
                     alt="image_profile"
                   />
                 </Link>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
-                    <Link class="dropdown-item" to="/login">
+                    <Link className="dropdown-item" to="/">
                       Login
                     </Link>
                   </li>
                   <li>
-                    <Link class="dropdown-item" to="/register">
+                    <Link className="dropdown-item" to="/">
                       Register
                     </Link>
                   </li>
