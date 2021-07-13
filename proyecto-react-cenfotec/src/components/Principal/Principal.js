@@ -66,7 +66,7 @@ function Principal() {
               <hr className="sep-3"/>
               <p className="m-5 mt-1 mb-1">Anota todos tus recordarios, trabajos, tareas y fechas importantes y agendariza todos tus proyectos.</p>
               <hr className="sep-3"/>
-              <button type="button" className="btn btn-primary btn-lg mt-3 mb-3">Ir a Tarea</button>
+              <Link to="/nueva-tarea" className="btn btn-primary btn-lg mt-3 mb-3">Ir a Tarea</Link>
           </div>
       </div>
     </div>

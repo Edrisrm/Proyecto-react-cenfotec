@@ -38,6 +38,11 @@ function Navbar() {
                 Eventos
               </Link>
             </li>
+            <li className="nav-item">
+              <Link className="nav-link active" aria-current="page" to="/tareas">
+                Tareas
+              </Link>
+            </li>
           </ul>
           <form className="d-flex">
             <ul className="navbar-nav mr-auto">
